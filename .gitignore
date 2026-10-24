@@ -1,0 +1,5 @@
+__pycache__
+.browser_profile
+.venv
+data
+*.pkl

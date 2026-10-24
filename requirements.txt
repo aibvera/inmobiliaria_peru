@@ -1,0 +1,19 @@
+﻿# Descarga de datos (scraper_urbania.py)
+playwright>=1.50
+
+# Notebook (modelamiento.ipynb)
+ipykernel>=6.29
+numpy>=2.0
+pandas>=3.0
+scipy>=1.13
+matplotlib>=3.9
+seaborn>=0.13
+
+# Modelo: debe ser la misma versión al exportar el .pkl y al cargarlo en la API
+scikit-learn==1.9.1
+joblib>=1.4
+
+# API (api.py)
+fastapi>=0.115
+pydantic>=2.7
+uvicorn>=0.30
